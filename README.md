@@ -48,3 +48,10 @@ E = (1/2)sigma(真实值 - 预测值)^2
 
 ![image](https://github.com/adai-tianao/-/assets/65994826/7eb892d9-5a9f-4b06-a6c0-ff72a246c663)
 
+# 2. CNN卷积神经网络及LeNet实现
+卷积的过程其实是提取特征的过程
+CNN主要用于处理图像数据
+LeNet提出时间很早，不适合处理复杂数据（cifra10处理就不太行了）
+处理Mnist效果还是比三层MLP要好几个百分点
+
+具体实现查看
