@@ -54,4 +54,10 @@ CNN主要用于处理图像数据
 LeNet提出时间很早，不适合处理复杂数据（cifra10处理就不太行了）
 处理Mnist效果还是比三层MLP要好几个百分点
 
-具体实现查看
+具体实现查看LeNetTrain.py
+实例可视化division.py
+
+写了cifra10数据集的识别，但是由于电脑性能不太行，能快速出的结果都是70%以内（使用LeNet或者简单CNN）
+使用ResNet50训练10个epoch需要5个小时 未做
+
+（tensorflow不知道为啥不能调用GPU,并且更新之后一直报warning）
